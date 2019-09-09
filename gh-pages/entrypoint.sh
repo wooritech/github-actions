@@ -72,8 +72,7 @@ git checkout $BASE_BRANCH && \
 
 # 빌드 스크립트 실행
 echo "빌드 스크립트를 실행합니다... ${BUILD_SCRIPT}\n" && \
-# eval "$BUILD_SCRIPT" && \
-yarn && yarn build && \
+eval "$BUILD_SCRIPT" && \
 
 # 커스텀 도메인 설정
 if [ "$CNAME" ]; then
