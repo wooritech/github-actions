@@ -1,0 +1,9 @@
+name: 'Deploy to GitHub Pages'
+description: '깃헙 페이지 배포용 액션'
+author: 'Wooritech'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'git-commit'
+  color: 'orange'

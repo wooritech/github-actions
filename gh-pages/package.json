@@ -1,0 +1,7 @@
+{
+  "name": "gh-pages-action",
+  "version": "0.0.1",
+  "description": "Github Pages Action",
+  "license": "MIT",
+  "repository": "https://github.com/wooritech/github-actions/gh-pages"
+}
